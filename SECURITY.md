@@ -21,7 +21,7 @@ Este proyecto está diseñado únicamente para:
 Si encuentras una vulnerabilidad de seguridad, por favor:
 
 1. **NO abras un issue público**
-2. **Envía un email** a: security@alvaro-manzo.dev
+2. **Envía un email** a: jogobonito029@gmail.com
 3. **Incluye detalles** técnicos del problema
 4. **Proporciona pasos** para reproducir
 5. **Sugiere una solución** si es posible
