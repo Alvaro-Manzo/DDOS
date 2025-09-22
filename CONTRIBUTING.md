@@ -79,6 +79,6 @@ Contribuciones bienvenidas:
 
 **Alvaro Manzo**
 - GitHub: [@alvaro-manzo](https://github.com/alvaro-manzo)
-- Email: contact@alvaro-manzo.dev
+- Email: jogobonito029@gmail.com
 
 ¡Gracias por contribuir de manera ética y responsable! 🙏
