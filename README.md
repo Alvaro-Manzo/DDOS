@@ -15,8 +15,8 @@
 
 ### 🍯 **Incluye Honeypot Visual Profesional con Dashboard Web**
 
-[![GitHub stars](https://img.shields.io/github/stars/alvaro-manzo/ddos-testing-framework?style=social)](https://github.com/alvaro-manzo/ddos-testing-framework)
-[![GitHub forks](https://img.shields.io/github/forks/alvaro-manzo/ddos-testing-framework?style=social)](https://github.com/alvaro-manzo/ddos-testing-framework)
+[![GitHub stars](https://img.shields.io/github/stars/alvaro-manzo/ddos-testing-framework?style=social)](https://github.com/Alvaro-Manzo/ddos-testing-framework)
+[![GitHub forks](https://img.shields.io/github/forks/alvaro-manzo/ddos-testing-framework?style=social)](https://github.com/Alvaro-Manzo/ddos-testing-framework)
 
 </div>
 
@@ -53,7 +53,7 @@
 - 🌐 **Proxy Chain Support**: Enrutamiento a través de múltiples proxies
 - 📊 **Traffic Pattern Mimicking**: Simulación de patrones de usuario real
 
-### 🍯 **Honeypot Visual Profesional de Alvaro Manzo - `visual_honeypot.py`**
+### 🍯 **Honeypot Visual Profesional de Alvaro Manzo - `pagina.py`**
 - **Dashboard Web Interactivo con Tecnología Avanzada**:
   - 🎨 Interfaz moderna con diseño glassmorphism y dark theme profesional
   - 📊 Gráficas en tiempo real con Chart.js (Doughnut, Line, Bar, Radar, Polar)
@@ -158,7 +158,7 @@ python3 -c "import requests, urllib3, flask; print('✅ Instalación exitosa')"
 python3 ddos.py --self-test
 
 # Iniciar dashboard de prueba
-python3 visual_honeypot.py --test-mode
+python3 pagina.py --test-mode
 
 # Verificar todas las dependencias
 python3 -m pip check
@@ -180,7 +180,7 @@ python3 ddos.py
 ### 🍯 **2. Iniciar Honeypot Visual con Dashboard**
 ```bash
 # Iniciar el honeypot visual profesional
-python3 visual_honeypot.py
+python3 pagina.py
 
 # Acceder al dashboard web en: http://localhost:8080
 # Credenciales: Usuario: Alvaro | Contraseña: falcon40
@@ -323,12 +323,12 @@ El proyecto incluye un **honeypot visual profesional** con dashboard web interac
 #### **🚀 Setup Ultra-Rápido del Honeypot Visual:**
 ```bash
 # 1. Iniciar honeypot visual
-python3 visual_honeypot.py
+python3 pagina.py
 
 # 2. Acceder al dashboard
 # URL: http://localhost:8080
 # Usuario: Alvaro
-# Contraseña: falcon40
+# Contraseña: 123456
 
 # 3. Atacar honeypot (Terminal 2)
 python3 ddos.py
@@ -442,7 +442,7 @@ docker run -p 8080:80 nginx:alpine
 ```
 DDOS/
 ├── ddos.py                    # Framework principal de DDoS
-├── visual_honeypot.py         # 🆕 Honeypot con dashboard visual
+├── pagina.py                  # 🆕 Honeypot con dashboard visual
 ├── honeypot_server.py         # Servidor honeypot clásico
 ├── setup_honeypot.sh          # Script de configuración rápida
 ├── README.md                  # Esta documentación
@@ -457,7 +457,7 @@ DDOS/
 ### **Archivos Principales:**
 
 - **`ddos.py`**: Framework avanzado multi-vector para testing DDoS
-- **`visual_honeypot.py`**: 🆕 **Honeypot con dashboard visual profesional**
+- **`pagina.py`**: 🆕 **Honeypot con dashboard visual profesional**
 - **`honeypot_server.py`**: Servidor honeypot clásico con logging completo
 - **`setup_honeypot.sh`**: Script de configuración automática
 - **`README.md`**: Documentación completa del proyecto
@@ -550,10 +550,6 @@ self.request_timeout = 10 # Más estable
 - [RFC 4732 - DDoS Attacks](https://tools.ietf.org/html/rfc4732)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 
-### **Cursos Recomendados**
-- Certified Ethical Hacker (CEH)
-- OSCP - Offensive Security
-- CISSP - Security Professional
 
 ---
 
@@ -593,36 +589,15 @@ El autor no se responsabiliza por mal uso.
 
 ## 👨‍💻 **Autor**
 
-**Alvaro Manzo** - *Especialista en Ciberseguridad y Desarrollo de Herramientas de Testing*
+**Alvaro Manzo** - *Estudihambre*
 
 - 🐱 **GitHub:** [@alvaro-manzo](https://github.com/alvaro-manzo)  
-- 📧 **Email:** contact@alvaro-manzo.dev
-- 🐦 **Twitter:** [@AlvaroManzo_dev](https://twitter.com/AlvaroManzo_dev)
-- 💼 **LinkedIn:** [Alvaro Manzo](https://linkedin.com/in/alvaro-manzo)
-- 🌐 **Website:** [alvaro-manzo.dev](https://alvaro-manzo.dev)
+- 📧 **Email:** jogobonito029@gmail.com
+
 
 ### 🎓 **Experiencia:**
-- Especialista en Ethical Hacking y Penetration Testing
-- Desarrollador de herramientas de ciberseguridad
-- Investigador en técnicas de evasión y detección DDoS
-- Contribuidor a proyectos open source de seguridad
+- pronto sabre cosas
 
----
-
-## 🌟 **Agradecimientos Especiales**
-
-- 🛡️ **Comunidad de Ciberseguridad** - Por compartir conocimientos y mejores prácticas
-- 👨‍💻 **Contribuidores de Código Abierto** - Por inspirar el desarrollo colaborativo  
-- 🔍 **Investigadores en DDoS** - Por sus investigaciones y documentación técnica
-- 🎓 **Ethical Hacking Community** - Por promover el uso responsable de estas herramientas
-- 📚 **OWASP Foundation** - Por las guías y estándares de seguridad
-- 🏢 **Instituciones Educativas** - Por fomentar la educación en ciberseguridad
-
-### 🏆 **Reconocimientos:**
-- Framework diseñado siguiendo estándares de OWASP
-- Implementación basada en mejores prácticas de la industria
-- Código revisado por expertos en ciberseguridad
-- Documentación completa para uso educativo
 
 ---
 
@@ -665,8 +640,8 @@ Ayuda a otros a aprender sobre testing de DDoS de manera ética y responsable.
 
 **🛡️ "Conoce tus defensas probando tus límites" - Ethical Hacking Philosophy**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/alvaro-manzo)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/AlvaroManzo_dev)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Alvaro-Manzo)
+
 
 </div>
 
