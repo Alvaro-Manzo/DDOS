@@ -102,7 +102,7 @@
 - 🎯 **Resolución DNS Avanzada** con cache inteligente y failover
 - 🔧 **Auto-Discovery** de servicios HTTP/HTTPS con port scanning integrado
 - 📝 **Logging Multinivel** (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-- � **Encryption Support** para payloads sensibles
+- � **Encryption Support** para payloads sensibles.
 
 ---
 
